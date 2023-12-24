@@ -1,12 +1,6 @@
 *{
     color:blueviolet;
 }
-.test{
-    color:chocolate;
-}
-.tesft{
-    color:aqua;
-}
 /*
 *{
     border-style: solid;
@@ -40,15 +34,14 @@ body {
   justify-self: center;
   */
 
-  resize: both;
   overflow: auto;
   display: grid;
   gap: 50px;
   border: 1px black;
   padding-right: 100px;
   padding-left: 100px;
-  grid-template-rows: 250px 250px 250px 250px;
-  grid-template-columns: 250px 250px 250px;
+  grid-auto-rows: 250px;
+  grid-template-columns: 250px 250px 250px 250px;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
@@ -69,8 +62,8 @@ body {
   .OrganizationLogo{
     height: 195px;
     width: 195px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #222222;
@@ -87,4 +80,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+  }
+  .footer{
+    text-align: center;
+    font-size: 6.0rem;
+    font-family:fantasy;
   }
