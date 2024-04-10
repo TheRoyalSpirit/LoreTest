@@ -21,11 +21,16 @@ body {
      margin: 5px;
 }
 */
-
+.LandingPageContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 .OrganizationTimelineDirectory{
   display:flex;
   justify-content:center;
   flex-direction: column;
+  align-items: center;
 }
 .OrganizationTimelineDirRow{
   display:flex;
